@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD06153B285A27430030E8B3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06153A285A27430030E8B3 /* SecondViewController.swift */; };
+		DD06153D285A276C0030E8B3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06153C285A276C0030E8B3 /* ThirdViewController.swift */; };
+		DD06153F285A277F0030E8B3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06153E285A277F0030E8B3 /* FourthViewController.swift */; };
+		DD061541285A27DB0030E8B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD061540285A27DB0030E8B3 /* HomeViewController.swift */; };
 		FB8ADDD82859065C00FCE459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDD72859065C00FCE459 /* AppDelegate.swift */; };
 		FB8ADDDA2859065C00FCE459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDD92859065C00FCE459 /* SceneDelegate.swift */; };
 		FB8ADDDC2859065C00FCE459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDDB2859065C00FCE459 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD06153A285A27430030E8B3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DD06153C285A276C0030E8B3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DD06153E285A277F0030E8B3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		DD061540285A27DB0030E8B3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FB8ADDD42859065C00FCE459 /* StemUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StemUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8ADDD72859065C00FCE459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8ADDD92859065C00FCE459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +68,11 @@
 			children = (
 				FB8ADDD72859065C00FCE459 /* AppDelegate.swift */,
 				FB8ADDD92859065C00FCE459 /* SceneDelegate.swift */,
+				DD061540285A27DB0030E8B3 /* HomeViewController.swift */,
 				FB8ADDDB2859065C00FCE459 /* ViewController.swift */,
+				DD06153A285A27430030E8B3 /* SecondViewController.swift */,
+				DD06153C285A276C0030E8B3 /* ThirdViewController.swift */,
+				DD06153E285A277F0030E8B3 /* FourthViewController.swift */,
 				FB8ADDDD2859065C00FCE459 /* Main.storyboard */,
 				FB8ADDE32859065E00FCE459 /* Assets.xcassets */,
 				FB8ADDE52859065E00FCE459 /* LaunchScreen.storyboard */,
@@ -144,6 +156,10 @@
 				FB8ADDE22859065C00FCE459 /* StemUs.xcdatamodeld in Sources */,
 				FB8ADDDC2859065C00FCE459 /* ViewController.swift in Sources */,
 				FB8ADDD82859065C00FCE459 /* AppDelegate.swift in Sources */,
+				DD061541285A27DB0030E8B3 /* HomeViewController.swift in Sources */,
+				DD06153F285A277F0030E8B3 /* FourthViewController.swift in Sources */,
+				DD06153B285A27430030E8B3 /* SecondViewController.swift in Sources */,
+				DD06153D285A276C0030E8B3 /* ThirdViewController.swift in Sources */,
 				FB8ADDDA2859065C00FCE459 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

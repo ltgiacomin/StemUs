@@ -112,6 +112,20 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdn-Fr-zO1">
                                                 <rect key="frame" x="0.0" y="717" width="414" height="134"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdp-rJ-3Hs">
+                                                        <rect key="frame" x="347" y="59" width="53" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="play.fill" catalog="system" title="">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="stigmaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsE-3r-r9v"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kft-55-vGw">
@@ -123,6 +137,13 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4I-LO-gLf">
+                                                        <rect key="frame" x="8" y="109" width="164" height="85"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
@@ -135,13 +156,6 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4I-LO-gLf">
-                                                        <rect key="frame" x="-186" y="109" width="164" height="85"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azj-e6-foc">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -155,30 +169,22 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dco-UU-nQK">
                                                 <rect key="frame" x="23" y="772" width="316" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text about statistics and figures kenfw nfjenk jd wdnwjn" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt9-go-4nf">
+                                                        <rect key="frame" x="8" y="8" width="300" height="44"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LYj-3D-XM1">
-                                                <rect key="frame" x="49" y="901" width="316" height="423"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            </view>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="N5P-HQ-7um">
-                                                <rect key="frame" x="347" y="777.5" width="46" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="breaking the stigma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBr-Lh-oqm">
                                                 <rect key="frame" x="22" y="724" width="371" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="prominent women" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtg-kA-pio">
-                                                <rect key="frame" x="101" y="861" width="213" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
-                                                <color key="textColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C91-qf-J8m">
@@ -189,6 +195,12 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bli-xe-xqK">
                                                 <rect key="frame" x="0.0" y="1373" width="414" height="405"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vbz-oF-cI4">
+                                                        <rect key="frame" x="16" y="20" width="383" height="364"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.39094418289999999" green="0.61642545459999998" blue="0.250889957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGg-bf-WkZ">
@@ -235,14 +247,14 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
                                                     <color key="baseBackgroundColor" red="0.39094418289999999" green="0.61642545459999998" blue="0.250889957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="generateNewFactsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y2O-Zv-XcV"/>
+                                                </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="in science" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snc-g6-odA">
-                                                <rect key="frame" x="149" y="1332" width="118" height="32"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lVj-z3-yHM">
+                                                <rect key="frame" x="31" y="883" width="353" height="449"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
-                                                <color key="textColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -271,6 +283,24 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
                     </view>
                     <tabBarItem key="tabBarItem" title="Science" id="eFn-jZ-dzl"/>
                     <size key="freeformSize" width="414" height="842"/>
+                    <connections>
+                        <outlet property="checkOutText" destination="3ks-FE-wWw" id="B8r-xe-wun"/>
+                        <outlet property="coolScienceFacts" destination="SOM-LO-Mwm" id="rJN-bN-QFB"/>
+                        <outlet property="imageCareers" destination="Vbz-oF-cI4" id="rbf-DH-hFa"/>
+                        <outlet property="imageFact1" destination="Xue-AM-2Ly" id="99Y-K4-WDk"/>
+                        <outlet property="imageFact2" destination="2Fh-uA-BLe" id="NMB-Ku-PlF"/>
+                        <outlet property="imageProminentWomen" destination="lVj-z3-yHM" id="cjY-gt-uTt"/>
+                        <outlet property="scienceText" destination="ZGg-bf-WkZ" id="AA5-oU-uf3"/>
+                        <outlet property="scienceTitle" destination="6o2-am-chd" id="1Jj-70-rGG"/>
+                        <outlet property="textFact1" destination="o4I-LO-gLf" id="f8Q-aC-g4Y"/>
+                        <outlet property="textFact2" destination="azj-e6-foc" id="Z0a-dy-MwG"/>
+                        <outlet property="textFacts" destination="Pt9-go-4nf" id="QkP-mt-zu5"/>
+                        <outlet property="textStigma" destination="qBr-Lh-oqm" id="dq3-dn-njU"/>
+                        <outlet property="viewRectangle1" destination="Kft-55-vGw" id="Bob-HC-x2b"/>
+                        <outlet property="viewRectangle2" destination="zK4-HW-PrX" id="mai-k0-aag"/>
+                        <outlet property="viewStigma" destination="wdn-Fr-zO1" id="kx1-r2-QL5"/>
+                        <outlet property="viewStigmaWhiteBox" destination="dco-UU-nQK" id="dhy-PF-o7r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -279,7 +309,7 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
         <!--Technology Page-->
         <scene sceneID="MBI-TP-Mus">
             <objects>
-                <viewController title="Technology Page" id="6qB-vr-Sgt" sceneMemberID="viewController">
+                <viewController title="Technology Page" id="6qB-vr-Sgt" customClass="SecondViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C36-U4-Drf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,7 +354,7 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
         <!--Engineering Page-->
         <scene sceneID="ihd-Vd-i9e">
             <objects>
-                <viewController title="Engineering Page" id="IW5-I7-Zb9" sceneMemberID="viewController">
+                <viewController title="Engineering Page" id="IW5-I7-Zb9" customClass="ThirdViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vyv-Kj-6rR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -369,7 +399,7 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
         <!--Mathematics Page-->
         <scene sceneID="Hhq-jT-rpc">
             <objects>
-                <viewController title="Mathematics Page" id="RRZ-pj-ouN" sceneMemberID="viewController">
+                <viewController title="Mathematics Page" id="RRZ-pj-ouN" customClass="FourthViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jv8-Uu-CyL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -414,7 +444,7 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
         <!--Item-->
         <scene sceneID="xbh-J6-H3K">
             <objects>
-                <viewController id="daL-mY-foU" customClass="ViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="daL-mY-foU" customClass="HomeViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Od8-58-gzB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -423,22 +453,6 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sw1-iI-cBe">
-                                        <rect key="frame" x="40" y="319" width="335" height="359"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueU-ve-etQ">
-                                                <rect key="frame" x="109" y="177" width="117" height="62"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                                <connections>
-                                                    <segue destination="sUU-CI-vzy" kind="show" id="BfN-nd-A6o"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="StemUs" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fQe-wn-Yil">
                                         <rect key="frame" x="40" y="73" width="335" height="105"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -463,6 +477,7 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Take the Ultimate STEM quiz!"/>
                                                 <connections>
+                                                    <action selector="quizButton:" destination="daL-mY-foU" eventType="touchUpInside" id="uEn-aN-3ag"/>
                                                     <segue destination="Xn8-TY-jLY" kind="show" id="uZJ-YB-Rvu"/>
                                                 </connections>
                                             </button>
@@ -479,11 +494,28 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="about StemUs" titleAlignment="center"/>
+                                                <connections>
+                                                    <action selector="aboutButton:" destination="daL-mY-foU" eventType="touchUpInside" id="x02-Ov-kNh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.69745820759999999" green="0.59441626069999998" blue="0.94121342900000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aVw-Mm-wX9">
+                                        <rect key="frame" x="40" y="302" width="335" height="359"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueU-ve-etQ">
+                                        <rect key="frame" x="149" y="450" width="117" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="tabBarButton:" destination="daL-mY-foU" eventType="touchUpInside" id="emL-lh-bJX"/>
+                                            <segue destination="sUU-CI-vzy" kind="show" id="BfN-nd-A6o"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -492,10 +524,15 @@ Donec interdum consequat ante, sit amet porttitor sapien scelerisque in. Ut vene
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="WPZ-pq-Nup"/>
+                    <connections>
+                        <outlet property="TitleStemUs" destination="fQe-wn-Yil" id="hQd-Qn-XxD"/>
+                        <outlet property="descriptionText" destination="46c-QP-qoc" id="34X-4i-AbC"/>
+                        <outlet property="imageSTEM" destination="aVw-Mm-wX9" id="y1v-z2-i8G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQh-au-lkJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-587" y="-688"/>
+            <point key="canvasLocation" x="-588.40579710144937" y="-688.39285714285711"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ykk-7V-oV5">
