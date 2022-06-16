@@ -206,6 +206,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ntp-Xc-JYJ"/>
                     <connections>
+                        <outlet property="questionViewHeading" destination="sw6-5f-W2R" id="wj2-ek-Ifs"/>
                         <outlet property="rangedStackView" destination="ORG-il-qTu" id="mgx-YX-tra"/>
                         <outlet property="singleStackView1" destination="ORG-il-qTu" id="ntF-Lg-l2X"/>
                         <outlet property="singleStackView2" destination="mSc-DN-5g1" id="cZ5-HG-z89"/>

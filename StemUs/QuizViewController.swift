@@ -16,6 +16,7 @@ class QuizViewController: UIViewController {
         @IBOutlet weak var singleStackView3: UIStackView!
     */
     
+    @IBOutlet weak var questionViewHeading: UILabel!
     @IBOutlet weak var singleStackView1: UIStackView!
     
     @IBOutlet weak var rangedStackView: UIStackView!
