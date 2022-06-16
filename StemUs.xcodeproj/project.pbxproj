@@ -18,6 +18,8 @@
 		FB8ADDE22859065C00FCE459 /* StemUs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDE02859065C00FCE459 /* StemUs.xcdatamodeld */; };
 		FB8ADDE42859065E00FCE459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8ADDE32859065E00FCE459 /* Assets.xcassets */; };
 		FB8ADDE72859065E00FCE459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8ADDE52859065E00FCE459 /* LaunchScreen.storyboard */; };
+		FB8ADDF1285ACF8500FCE459 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDF0285ACF8500FCE459 /* QuizData.swift */; };
+		FB8ADDF3285AD48E00FCE459 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDF2285AD48E00FCE459 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		FB8ADDE32859065E00FCE459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8ADDE62859065E00FCE459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB8ADDE82859065E00FCE459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8ADDF0285ACF8500FCE459 /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		FB8ADDF2285AD48E00FCE459 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				DD06153A285A27430030E8B3 /* SecondViewController.swift */,
 				DD06153C285A276C0030E8B3 /* ThirdViewController.swift */,
 				DD06153E285A277F0030E8B3 /* FourthViewController.swift */,
+				FB8ADDF2285AD48E00FCE459 /* QuizViewController.swift */,
+				FB8ADDF0285ACF8500FCE459 /* QuizData.swift */,
 				FB8ADDDD2859065C00FCE459 /* Main.storyboard */,
 				FB8ADDE32859065E00FCE459 /* Assets.xcassets */,
 				FB8ADDE52859065E00FCE459 /* LaunchScreen.storyboard */,
@@ -154,12 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8ADDE22859065C00FCE459 /* StemUs.xcdatamodeld in Sources */,
+				FB8ADDF3285AD48E00FCE459 /* QuizViewController.swift in Sources */,
 				FB8ADDDC2859065C00FCE459 /* ViewController.swift in Sources */,
 				FB8ADDD82859065C00FCE459 /* AppDelegate.swift in Sources */,
 				DD061541285A27DB0030E8B3 /* HomeViewController.swift in Sources */,
 				DD06153F285A277F0030E8B3 /* FourthViewController.swift in Sources */,
 				DD06153B285A27430030E8B3 /* SecondViewController.swift in Sources */,
 				DD06153D285A276C0030E8B3 /* ThirdViewController.swift in Sources */,
+				FB8ADDF1285ACF8500FCE459 /* QuizData.swift in Sources */,
 				FB8ADDDA2859065C00FCE459 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
