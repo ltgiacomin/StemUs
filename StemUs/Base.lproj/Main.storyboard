@@ -206,8 +206,23 @@
                     </view>
                     <navigationItem key="navigationItem" id="ntp-Xc-JYJ"/>
                     <connections>
+                        <outlet property="questionProgressView" destination="9rG-W7-qSk" id="iT7-Qt-DyI"/>
                         <outlet property="questionViewHeading" destination="sw6-5f-W2R" id="wj2-ek-Ifs"/>
+                        <outlet property="rangedLabel1" destination="g8R-A9-Lbh" id="w1H-sQ-Ygh"/>
+                        <outlet property="rangedLabel2" destination="0o9-ow-1ww" id="6Ca-4y-UwH"/>
                         <outlet property="rangedStackView" destination="ORG-il-qTu" id="mgx-YX-tra"/>
+                        <outlet property="single1Button1" destination="HUF-el-D3T" id="tpb-mY-tMN"/>
+                        <outlet property="single1Button2" destination="qDm-ug-7dz" id="hge-Su-fCD"/>
+                        <outlet property="single1Button3" destination="xDE-WF-s0U" id="YXl-HC-CV5"/>
+                        <outlet property="single1Button4" destination="qNd-Oz-ydD" id="6vy-AS-5Gk"/>
+                        <outlet property="single2Button1" destination="vvQ-bi-kEM" id="yDR-Up-nTB"/>
+                        <outlet property="single2Button2" destination="2lu-Im-dit" id="bGz-i3-vbz"/>
+                        <outlet property="single2Button3" destination="SDx-RP-bcF" id="CMY-4w-11l"/>
+                        <outlet property="single2Button4" destination="nW9-z5-Peg" id="GRk-bQ-6Pv"/>
+                        <outlet property="singleLabel1" destination="7ue-f3-M7H" id="f3q-qb-QaQ"/>
+                        <outlet property="singleLabel2" destination="baa-hF-Ndl" id="8IX-gn-Nby"/>
+                        <outlet property="singleLabel3" destination="CAy-UN-E9r" id="tJW-6A-33K"/>
+                        <outlet property="singleLabel4" destination="MII-6T-7M7" id="bBM-gD-wE8"/>
                         <outlet property="singleStackView1" destination="ORG-il-qTu" id="ntF-Lg-l2X"/>
                         <outlet property="singleStackView2" destination="mSc-DN-5g1" id="cZ5-HG-z89"/>
                         <outlet property="singleStackView3" destination="e84-cN-rDw" id="0Ag-gU-Yy0"/>
@@ -1101,6 +1116,22 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
             </objects>
             <point key="canvasLocation" x="2584.057971014493" y="131.91964285714286"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="bpb-bB-z41">
+            <objects>
+                <viewController id="wel-Ib-0va" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wh3-xt-bBz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9g0-Sf-eEo"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="F8i-Tt-AXK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FE7-Hr-Spn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1497" y="-688"/>
+        </scene>
         <!--Item-->
         <scene sceneID="xbh-J6-H3K">
             <objects>
@@ -1158,6 +1189,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <buttonConfiguration key="configuration" style="plain" title="about StemUs" titleAlignment="center"/>
                                                 <connections>
                                                     <action selector="aboutButton:" destination="daL-mY-foU" eventType="touchUpInside" id="x02-Ov-kNh"/>
+                                                    <segue destination="wel-Ib-0va" kind="show" id="POT-27-NHC"/>
                                                 </connections>
                                             </button>
                                         </subviews>
