@@ -207,14 +207,14 @@
             <objects>
                 <viewController title="Science Page" id="BYZ-38-t0r" customClass="ViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="814"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-yX-RTi">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="814"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKf-Gu-8S2">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2453"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2290"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdn-Fr-zO1">
                                                 <rect key="frame" x="0.0" y="717" width="414" height="129"/>
@@ -381,7 +381,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Science" id="eFn-jZ-dzl"/>
-                    <size key="freeformSize" width="414" height="868"/>
+                    <size key="freeformSize" width="414" height="814"/>
                     <connections>
                         <outlet property="checkOutText" destination="3ks-FE-wWw" id="B8r-xe-wun"/>
                         <outlet property="coolScienceFacts" destination="SOM-LO-Mwm" id="rJN-bN-QFB"/>
@@ -403,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.52173913043481" y="140.625"/>
+            <point key="canvasLocation" x="256.52173913043481" y="176.78571428571428"/>
         </scene>
         <!--Technology Page-->
         <scene sceneID="MBI-TP-Mus">

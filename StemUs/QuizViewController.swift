@@ -14,7 +14,7 @@ class QuizViewController: UIViewController {
                  type: .single,
                  answers:[
                     Answer(text: "Ideas", type: .Mathematics),
-                    Answer(text: "Things", type: .Engineering,)
+                    Answer(text: "Things", type: .Engineering)
                  ])
     ]
     

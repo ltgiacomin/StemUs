@@ -19,10 +19,10 @@ enum ResponseType {
 
 struct Answer{
     var text: String
-    var type: StemTField
+    var type: StemField
 }
 
-enum StemField: Field {
+enum StemField: String {
     case Mathematics = "Mathematics", Science = "Science", Engineering = "Engineering", Technology = "Technology"
     
     var definition: String {
