@@ -32,12 +32,15 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    var technologyImages = [UIImage(named:"technologyImage1"),UIImage(named:"technologyImage2"),UIImage(named:"technologyImage3"),UIImage(named:"technologyImage4"),UIImage(named:"technologyImage5"),UIImage(named:"technologyImage6")]
     
     var techFacts1 = ["The Firefox logo is not a fox (it's actually a red panda).", "The first television broadcast took place in 1925.","Apple were originally designing an apple shaped flip phone.","Over 6,000 computer viruses are released each month."]
     
     var techFacts2 = ["Over 90% of the world's currency is digital.", "When you work on a computer your hands travel 20 kilometers a day.", "Every iPhone advertisement has the time set to 9:41.", "There are over 700 programming languages."]
 
     @IBAction func factsButton(_ sender: Any) {
+        fact1Img.image = technologyImages[Int.random(in:0..<5)]
+        fact2Img.image = technologyImages[Int.random(in:0..<5)]
         fact1Text.text = techFacts1.randomElement()
         fact2Text.text = techFacts2.randomElement()
     }

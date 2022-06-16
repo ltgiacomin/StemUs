@@ -48,11 +48,15 @@ class ViewController: UIViewController {
         
     }
 
+    var scienceImages = [UIImage(named:"scienceImage1"),UIImage(named:"scienceImage2"),UIImage(named:"scienceImage3"),UIImage(named:"scienceImage4"),UIImage(named:"scienceImage5"),UIImage(named:"scienceImage6")]
+    
     var scienceFacts1 = ["A teaspoonful of neutron star would weigh 6 billion tons.", "Hawaii moves 7.5 closer to Alaska every year.","20% of Earth’s oxygen is produced by the Amazon rainforest.","In 2.3 billion years it will be too hot for life to exist on Earth."]
     
     var scienceFacts2 = ["The Eiffel Tower can be 15cm taller during the summer.", "Venus is the only planet to spin clockwise.", "The human stomach can dissolve razor blades.", "A cloud can weigh around a million pounds."]
     
     @IBAction func generateNewFactsButton(_ sender: UIButton) {
+        imageFact1.image = scienceImages[Int.random(in:0..<5)]
+        imageFact2.image = scienceImages[Int.random(in:0..<5)]
         textFact1.text = scienceFacts1.randomElement()
         textFact2.text = scienceFacts2.randomElement()
         
