@@ -25,6 +25,11 @@ class FourthViewController: UIViewController {
     @IBOutlet weak var mathsText: UILabel!
     @IBOutlet weak var mathsHeading: UILabel!
     @IBOutlet weak var mathsBackground: UIView!
+    
+    var mathFacts1 = ["The numbers on opposite sides of a dice always add up to seven.", "Accounting firms, banks, computer manufacturers, insurance agents, and many other agencies and companies hire math graduates .","Mathematics is ranked 29th most popular out of the 384 college majors ranked by College Factual.","In a room of 23 people there's a 50% chance that two people have the same birthday."]
+    
+    var mathFacts2 = ["Mathematicians expand mathematical knowledge by developing new principles.", ".",".","."]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

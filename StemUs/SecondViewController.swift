@@ -33,6 +33,9 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    var techFacts1 = ["The Firefox logo is not a fox (it's actually a red panda).", "The first television broadcast took place in 1925.","Apple were originally designing an apple shaped flip phone.","Over 6,000 computer viruses are released each month."]
+    
+    var techFacts2 = ["Over 90% of the world's currency is digital.", "When you work on a computer your hands travel 20 kilometers a day.", "Every iPhone advertisement has the time set to 9:41.", "There are over 700 programming languages."]
 
     @IBAction func factsButton(_ sender: Any) {
    
