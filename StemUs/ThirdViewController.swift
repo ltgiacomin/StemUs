@@ -27,6 +27,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var engineeringHeading: UILabel!
     @IBOutlet weak var engBackground: UIView!
     
+    var engImages = [UIImage(named:"engineeringImage1"),UIImage(named:"engineeringImage2"),UIImage(named:"engineeringImage3"),UIImage(named:"engineeringImage4"),UIImage(named:"engineeringImage5"),UIImage(named:"engineeringImage6")]
     
     var engFacts1 = ["The word 'engineer' is derived from the Latin word 'ingenium'.", "The Ferris wheel is regarded as one of the largest engineering wonders of the world.","The snowboard was invented by an engineer."]
     
@@ -41,6 +42,8 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func factsButton(_ sender: UIButton) {
+        fact1Img.image = engImages[Int.random(in:0..<5)]
+        fact2Img.image = engImages[Int.random(in:0..<5)]
         fact1Text.text = engFacts1.randomElement()
         fact2Text.text = engFacts2.randomElement()
     }

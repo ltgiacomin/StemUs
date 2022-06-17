@@ -321,7 +321,7 @@
                                                 <rect key="frame" x="22" y="444" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="Xue-AM-2Ly">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scienceImage1" translatesAutoresizingMaskIntoConstraints="NO" id="Xue-AM-2Ly">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -340,7 +340,7 @@
                                                 <rect key="frame" x="215" y="444" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="2Fh-uA-BLe">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scienceImage2" translatesAutoresizingMaskIntoConstraints="NO" id="2Fh-uA-BLe">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -551,7 +551,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 <rect key="frame" x="22" y="446" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="Dsv-sB-R98">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technologyImage5" translatesAutoresizingMaskIntoConstraints="NO" id="Dsv-sB-R98">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -570,7 +570,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 <rect key="frame" x="215" y="446" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="vgc-bH-zao">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technologyImage4" translatesAutoresizingMaskIntoConstraints="NO" id="vgc-bH-zao">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -761,7 +761,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 <rect key="frame" x="22" y="444" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="kbS-Th-ckZ">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="engineeringImage2" translatesAutoresizingMaskIntoConstraints="NO" id="kbS-Th-ckZ">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -780,7 +780,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 <rect key="frame" x="215" y="444" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="Iut-fi-cdX">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="engineeringImage6" translatesAutoresizingMaskIntoConstraints="NO" id="Iut-fi-cdX">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -978,7 +978,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <rect key="frame" x="22" y="446" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="cpv-dV-woh">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mathImage3" translatesAutoresizingMaskIntoConstraints="NO" id="cpv-dV-woh">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -997,7 +997,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <rect key="frame" x="215" y="446" width="178" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sciencefact1" translatesAutoresizingMaskIntoConstraints="NO" id="doW-8j-ijd">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mathImage5" translatesAutoresizingMaskIntoConstraints="NO" id="doW-8j-ijd">
                                                         <rect key="frame" x="8" y="8" width="162" height="105"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1285,9 +1285,16 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         <image name="cmath" width="1080" height="1080"/>
         <image name="csci" width="1080" height="1080"/>
         <image name="ctech" width="1080" height="1080"/>
+        <image name="engineeringImage2" width="362" height="139"/>
+        <image name="engineeringImage6" width="225" height="225"/>
         <image name="homeimg" width="1080" height="1080"/>
+        <image name="mathImage3" width="275" height="183"/>
+        <image name="mathImage5" width="315" height="160"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
-        <image name="sciencefact1" width="720" height="643"/>
+        <image name="scienceImage1" width="275" height="183"/>
+        <image name="scienceImage2" width="275" height="183"/>
+        <image name="technologyImage4" width="300" height="168"/>
+        <image name="technologyImage5" width="275" height="183"/>
         <image name="weng" width="1080" height="1080"/>
         <image name="wmath" width="1080" height="1080"/>
         <image name="wsci" width="1080" height="1080"/>
