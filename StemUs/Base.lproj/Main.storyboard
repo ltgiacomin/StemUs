@@ -476,7 +476,7 @@ Science has formed the foundation of human knowledge for as long as we have trav
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </webView>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-JW-Ivv">
-                                                <rect key="frame" x="-2" y="2173" width="419" height="262"/>
+                                                <rect key="frame" x="-2" y="2173" width="419" height="252"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waw-WA-SNt">
@@ -498,7 +498,7 @@ Science has formed the foundation of human knowledge for as long as we have trav
                                                 <color key="backgroundColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0a-W8-SWz">
-                                                <rect key="frame" x="51" y="2468" width="314" height="31"/>
+                                                <rect key="frame" x="51" y="2451" width="314" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.42519842569999999" green="0.76871567959999998" blue="0.53222621110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -745,30 +745,30 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYH-Wb-SbY">
-                                                <rect key="frame" x="22" y="1865" width="371" height="57"/>
+                                                <rect key="frame" x="22" y="1852" width="371" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
                                                 <color key="textColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jho-oa-H0N">
-                                                <rect key="frame" x="22" y="1930" width="371" height="234"/>
+                                                <rect key="frame" x="22" y="1917" width="371" height="234"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </webView>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lDN-L9-cO8">
-                                                <rect key="frame" x="0.0" y="2189" width="419" height="262"/>
+                                                <rect key="frame" x="-2" y="2176" width="419" height="244"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgk-Uy-31Q">
-                                                        <rect key="frame" x="22" y="8" width="371" height="82"/>
+                                                        <rect key="frame" x="24" y="9" width="371" height="82"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N55-tC-cTY">
-                                                        <rect key="frame" x="22" y="98" width="371" height="135"/>
+                                                        <rect key="frame" x="24" y="89" width="371" height="135"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <string key="text">"People ask me all the time: 'What is it like to be a woman at Google?' I'm not a woman at Google, I'm a geek at Google. And being a geek is just great. I'm a geek, I like to code, I even like to use spreadsheets when I cook." -- technologist Marissa Mayer and former CEO of Yahoo.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -779,7 +779,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 <color key="backgroundColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qof-kl-Zom">
-                                                <rect key="frame" x="50" y="2484" width="314" height="31"/>
+                                                <rect key="frame" x="50" y="2452" width="314" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -1027,19 +1027,19 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVA-7h-ZPJ">
-                                                <rect key="frame" x="22" y="1861" width="371" height="57"/>
+                                                <rect key="frame" x="22" y="1848" width="371" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
                                                 <color key="textColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ad-UZ-4dQ">
-                                                <rect key="frame" x="22" y="1926" width="371" height="234"/>
+                                                <rect key="frame" x="22" y="1913" width="371" height="234"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </webView>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mev-sQ-sdJ">
-                                                <rect key="frame" x="-1" y="2191" width="415" height="262"/>
+                                                <rect key="frame" x="0.0" y="2171" width="415" height="256"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpl-8Q-iIh">
@@ -1050,7 +1050,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYW-RE-8sE">
-                                                        <rect key="frame" x="22" y="98" width="371" height="156"/>
+                                                        <rect key="frame" x="22" y="89" width="371" height="156"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <string key="text">"When I was in high school, I was certain that being an astronaut was my goal. It was a very important time -- Sally Ride was making her first flight into space and she had a real impact on me. Those 'firsts' kind of stick in your head and really become inspirations for you." -- Karen Nyberg, NASA astronaut.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1061,7 +1061,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 <color key="backgroundColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cG2-qR-fsm">
-                                                <rect key="frame" x="50" y="2487" width="314" height="31"/>
+                                                <rect key="frame" x="50" y="2454" width="314" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -1316,14 +1316,14 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9z-FX-Gg2">
-                                                <rect key="frame" x="16" y="1874" width="371" height="57"/>
+                                                <rect key="frame" x="16" y="1862" width="371" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
                                                 <color key="textColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxH-ld-HOW">
-                                                <rect key="frame" x="0.0" y="2201" width="415" height="262"/>
+                                                <rect key="frame" x="0.0" y="2188" width="415" height="252"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-4X-Q7n">
@@ -1334,7 +1334,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h50-bM-BMN">
-                                                        <rect key="frame" x="24" y="98" width="371" height="156"/>
+                                                        <rect key="frame" x="22" y="86" width="371" height="156"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <string key="text">"If you're beautiful, you're led to believe that you can't also be smart. But you can be fun and fit and social and be really smart. And the smarter you are, the more capable you'll be to handle whatever challenges come up in life." -- Danica McKellar, mathematician and The Wonder Years actress of iconic character Winnie Cooper</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1345,12 +1345,12 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <color key="backgroundColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="beq-Hm-V8f">
-                                                <rect key="frame" x="19" y="1939" width="377" height="238"/>
+                                                <rect key="frame" x="19" y="1927" width="377" height="238"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </webView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJf-Js-plM">
-                                                <rect key="frame" x="44" y="2494" width="314" height="31"/>
+                                                <rect key="frame" x="44" y="2469" width="314" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -1428,29 +1428,37 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="about StemUs" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6cc-85-vE8">
-                                <rect key="frame" x="40" y="44" width="335" height="68"/>
+                                <rect key="frame" x="39" y="40" width="335" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="47"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpose" translatesAutoresizingMaskIntoConstraints="NO" id="KdJ-eX-5UG">
+                                <rect key="frame" x="28" y="112" width="358" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfK-wX-pLA">
+                                <rect key="frame" x="59" y="706" width="297" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Whichever your career is and however you relate to STEM, be persistent, don't give up and we are sure that you will be set for future success! - StemUs</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="the developers" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UhE-Ts-RFz">
-                                <rect key="frame" x="40" y="341" width="335" height="80"/>
+                                <rect key="frame" x="39" y="249" width="335" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KdJ-eX-5UG">
-                                <rect key="frame" x="40" y="120" width="335" height="196"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Demo Day" translatesAutoresizingMaskIntoConstraints="NO" id="h0T-9N-wWD">
+                                <rect key="frame" x="32" y="295" width="347" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h0T-9N-wWD">
-                                <rect key="frame" x="40" y="401" width="335" height="197"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Yh-lr-ZFo">
-                                <rect key="frame" x="40" y="606" width="335" height="197"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bios" translatesAutoresizingMaskIntoConstraints="NO" id="2Yh-lr-ZFo">
+                                <rect key="frame" x="13" y="484" width="386" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1494,12 +1502,12 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGi-oT-M4C">
-                                                <rect key="frame" x="33" y="14" width="214" height="62"/>
+                                                <rect key="frame" x="24" y="14" width="230" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Take the Ultimate STEM quiz!">
-                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Take the Ultimate STEM quiz!" titleAlignment="center">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="21"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="quizButton:" destination="daL-mY-foU" eventType="touchUpInside" id="uEn-aN-3ag"/>
@@ -1515,10 +1523,12 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unH-Qq-xpe">
-                                                <rect key="frame" x="29" y="14" width="78" height="62"/>
+                                                <rect key="frame" x="14" y="14" width="108" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="About StemUs" titleAlignment="center"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="About StemUs" titleAlignment="center">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="16"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="aboutButton:" destination="daL-mY-foU" eventType="touchUpInside" id="x02-Ov-kNh"/>
                                                     <segue destination="wel-Ib-0va" kind="show" id="POT-27-NHC"/>
@@ -1569,7 +1579,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" red="0.083275177579999998" green="0.095677206109999996" blue="0.92941176889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="UyJ-sH-QBu"/>
@@ -1603,6 +1613,8 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         </scene>
     </scenes>
     <resources>
+        <image name="Bios" width="1877" height="1080"/>
+        <image name="Demo Day" width="1920" height="1080"/>
         <image name="ceng" width="1080" height="1080"/>
         <image name="cmath" width="1080" height="1080"/>
         <image name="csci" width="1080" height="1080"/>
@@ -1615,6 +1627,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         <image name="mathImage3" width="275" height="183"/>
         <image name="mathImage5" width="315" height="160"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
+        <image name="purpose" width="1468" height="513"/>
         <image name="quizbg" width="1080" height="1920"/>
         <image name="s.square.fill" catalog="system" width="128" height="114"/>
         <image name="scienceImage1" width="275" height="183"/>

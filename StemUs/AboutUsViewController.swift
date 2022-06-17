@@ -14,6 +14,7 @@ class AboutUsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+
     
 
     /*
@@ -25,5 +26,8 @@ class AboutUsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    /*
+    UIApplication.shared.open(URL(string: "https://news.mit.edu/topic/women-stem")! as URL, options: [:], completionHandler:nil)
+     */
 }
