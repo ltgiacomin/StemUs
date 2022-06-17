@@ -21,6 +21,7 @@
 		FB8ADDF1285ACF8500FCE459 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDF0285ACF8500FCE459 /* QuizData.swift */; };
 		FB8ADDF3285AD48E00FCE459 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDF2285AD48E00FCE459 /* QuizViewController.swift */; };
 		FB8ADDF5285BA65200FCE459 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDF4285BA65200FCE459 /* AboutUsViewController.swift */; };
+		FB8ADDF7285BE0D200FCE459 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADDF6285BE0D200FCE459 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FB8ADDF0285ACF8500FCE459 /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
 		FB8ADDF2285AD48E00FCE459 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		FB8ADDF4285BA65200FCE459 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		FB8ADDF6285BE0D200FCE459 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				DD06153C285A276C0030E8B3 /* ThirdViewController.swift */,
 				DD06153E285A277F0030E8B3 /* FourthViewController.swift */,
 				FB8ADDF2285AD48E00FCE459 /* QuizViewController.swift */,
+				FB8ADDF6285BE0D200FCE459 /* ResultsViewController.swift */,
 				FB8ADDF0285ACF8500FCE459 /* QuizData.swift */,
 				FB8ADDF4285BA65200FCE459 /* AboutUsViewController.swift */,
 				FB8ADDDD2859065C00FCE459 /* Main.storyboard */,
@@ -173,6 +176,7 @@
 				FB8ADDF1285ACF8500FCE459 /* QuizData.swift in Sources */,
 				FB8ADDF5285BA65200FCE459 /* AboutUsViewController.swift in Sources */,
 				FB8ADDDA2859065C00FCE459 /* SceneDelegate.swift in Sources */,
+				FB8ADDF7285BE0D200FCE459 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

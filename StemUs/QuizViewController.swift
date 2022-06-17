@@ -19,31 +19,36 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var questionProgressView: UIProgressView!
     @IBOutlet weak var questionViewHeading: UILabel!
     
+    
+    
     @IBOutlet weak var singleStackView1: UIStackView!
     @IBOutlet weak var single1Button1: UIButton!
     @IBOutlet weak var single1Button2: UIButton!
     @IBOutlet weak var single1Button3: UIButton!
     @IBOutlet weak var single1Button4: UIButton!
     
+    
     @IBOutlet weak var rangedStackView: UIStackView!
     @IBOutlet weak var rangedLabel1: UILabel!
     @IBOutlet weak var rangedLabel2: UILabel!
+    @IBOutlet weak var rangedSlider: UISlider!
     
-    @IBOutlet weak var singleStackView2: UIStackView!
-    @IBOutlet weak var singleLabel1: UILabel!
-    @IBOutlet weak var singleLabel2: UILabel!
-    @IBOutlet weak var singleLabel3: UILabel!
-    @IBOutlet weak var singleLabel4: UILabel!
     
-    @IBOutlet weak var singleStackView3: UIStackView!
-    @IBOutlet weak var single2Button1: UIButton!
-    @IBOutlet weak var single2Button2: UIButton!
-    @IBOutlet weak var single2Button3: UIButton!
-    @IBOutlet weak var single2Button4: UIButton!
+    @IBOutlet weak var multipleStackView: UIStackView!
+    @IBOutlet weak var multipleLabel1: UILabel!
+    @IBOutlet weak var multipleLabel2: UILabel!
+    @IBOutlet weak var multipleLabel3: UILabel!
+    @IBOutlet weak var multipleLabel4: UILabel!
+    
+    @IBOutlet weak var multiSwitch1: UISwitch!
+    @IBOutlet weak var multiSwitch2: UISwitch!
+    @IBOutlet weak var multiSwitch3: UISwitch!
+    @IBOutlet weak var multiSwitch4: UISwitch!
+    
     
     var questions: [Question] = [
         Question(text: "Do you like working with ideas or things?",
-                 type: .single1,
+                 type: .single,
                  answers:[
                     Answer(text: "Ideas", type: .Mathematics),
                     Answer(text: "Things", type: .Technology),
@@ -53,30 +58,25 @@ class QuizViewController: UIViewController {
         Question(text: "How much do you NOT like math (1 meaning you love it, 10 meaning you detest it)?",
                  type: .ranged,
                  answers:[
-                    Answer(text:  "I love it", type: .Mathematics),
-                    Answer(text: "I like it, but I'm not crazy about it", type: .Engineering),
-                    Answer(text: "I like it less than I think someone going into STEM should", type: .Science),
-                    Answer(text: "I don't like it, I only do it because I have to", type: .Technology)
+                    Answer(text: "1", type: .Mathematics),
+                    Answer(text: "3", type: .Engineering),
+                    Answer(text: "6", type: .Science),
+                    Answer(text: "10", type: .Technology)
                                ]),
-        Question(text: "Would you rather discover or invent?",
-                 type: .single2,
-                 answers:[
-                    Answer(text: "Discover", type: .Mathematics),
-                    Answer(text: "Invent", type: .Engineering),
-                    Answer(text: "Both, but more to discover than to invent", type: .Science),
-                    Answer(text: "Both, but more to invent than to discover", type: .Technology)
-                         ]),
-        Question(text: "Would you rather think or build?",
-                 type: .single3,
+        Question(text: "Which of the following options sounds more appealing to you? You may chose more than one!",
+                 type: .multiple,
                  answers:[
                     Answer(text: "Think", type: .Mathematics),
                     Answer(text: "Build", type: .Engineering),
-                    Answer(text: "Both, but  far more to think than to build", type: .Science),
-                    Answer(text: "Both, but far more to build than to think", type: .Technology)
+                    Answer(text: "Discover", type: .Science),
+                    Answer(text: "Invent", type: .Technology)
                          ]),
     ]
     
     var questionIndex = 0
+    
+    var answersChosen: [Answer] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
@@ -85,8 +85,7 @@ class QuizViewController: UIViewController {
     func updateUI() {
         singleStackView1.isHidden = true
         rangedStackView.isHidden = true
-        singleStackView2.isHidden = true
-        singleStackView3.isHidden = true
+        multipleStackView.isHidden = true
         
         navigationItem.title = "Question #\(questionIndex+1)"
         
@@ -99,19 +98,20 @@ class QuizViewController: UIViewController {
         
         
         switch currentQuestion.type {
-                case .single1:
+                case .single:
+            singleStackView1.isHidden = false
                  updateSingleStack1(using: currentAnswers)
                 case .ranged:
+            rangedStackView.isHidden = false
                   updateRangedStack(using: currentAnswers)
-                case .single2:
-                  updateSingleStack2(using: currentAnswers)
-                case .single3:
-            updateSingleStack3(using: currentAnswers)
+                case .multiple:
+            multipleStackView.isHidden = false
+                  updateMultipleStack(using: currentAnswers)
                 }
     }
     
     func updateSingleStack1(using answers: [Answer]) {
-        singleStackView1.isHidden = false
+        singleStackView1.isHidden =  false
       single1Button1.setTitle(answers[0].text, for: .normal)
       single1Button2.setTitle(answers[1].text, for: .normal)
       single1Button3.setTitle(answers[2].text, for: .normal)
@@ -120,26 +120,96 @@ class QuizViewController: UIViewController {
       }
       
      func updateRangedStack(using answers: [Answer]) {
-         rangedStackView.isHidden = false
+         rangedStackView.isHidden =  false
+         rangedSlider.setValue(0.5, animated: false)
          rangedLabel1.text = answers.first?.text
          rangedLabel2.text = answers.first?.text
       }
       
-      func updateSingleStack2(using answers: [Answer]) {
-          singleStackView2.isHidden = false
-          singleLabel1.text = answers[0].text
-          singleLabel2.text = answers[1].text
-          singleLabel3.text = answers[2].text
-          singleLabel4.text = answers[3].text
-      
-    }
-      func updateSingleStack3(using answers: [Answer]) {
-          singleStackView3.isHidden = false
-          single2Button1.setTitle(answers[0].text, for: .normal)
-          single2Button2.setTitle(answers[1].text, for: .normal)
-          single2Button3.setTitle(answers[2].text, for: .normal)
-          single2Button4.setTitle(answers[3].text, for: .normal)
-    }
+    func updateMultipleStack(using answers: [Answer]) {
+        multipleStackView.isHidden = false
+        multiSwitch1.isOn = false
+        multiSwitch2.isOn = false
+        multiSwitch3.isOn = false
+        multiSwitch4.isOn = false
+        
+        multipleLabel1.text = answers[0].text
+        multipleLabel2.text = answers[1].text
+        multipleLabel3.text = answers[2].text
+        multipleLabel4.text = answers[3].text
+          
+        }
 
     
+    
+    @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
+        let currentAnswers = questions[questionIndex].answers
+        
+        switch sender {
+        case single1Button1:
+            answersChosen.append(currentAnswers[0])
+        case single1Button2:
+            answersChosen.append(currentAnswers[1])
+        case single1Button3:
+            answersChosen.append(currentAnswers[2])
+        case single1Button4:
+            answersChosen.append(currentAnswers[3])
+        default:
+            break
+        }
+        
+        nextQuestion()
+    }
+    
+    
+    @IBAction func multipleAnswerButtonPressed() {
+        let currentAnswers = questions[questionIndex].answers
+        
+        if multiSwitch1.isOn {
+            answersChosen.append(currentAnswers[0])
+        }
+        if multiSwitch2.isOn {
+            answersChosen.append(currentAnswers[1])
+        }
+        if multiSwitch3.isOn {
+            answersChosen.append(currentAnswers[2])
+        }
+        if multiSwitch4.isOn {
+            answersChosen.append(currentAnswers[3])
+    }
+        
+        nextQuestion()
+        
+    }
+    
+    @IBAction func rangedAnswerButtonPressed() {
+         let currentAnswers = questions[questionIndex].answers
+         let index = Int(round(rangedSlider.value * Float(currentAnswers.count - 1)))
+         
+         answersChosen.append(currentAnswers[index])
+         
+         nextQuestion()
+     }
+
+    
+    
+    func nextQuestion() {
+        questionIndex += 1
+        
+        if questionIndex < questions.count {
+            updateUI()
+        }
+        else {
+            performSegue(withIdentifier: "ResultsSegue", sender: nil)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ResultsSegue" {
+            let resultsViewController = segue.destination as! ResultsViewController
+            resultsViewController.responses = answersChosen
+        }
+    }
+    
 }
+
