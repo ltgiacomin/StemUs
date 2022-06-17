@@ -106,4 +106,9 @@ class SecondViewController: UIViewController {
         let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
         webViewYoutube.loadRequest(URLRequest(url: url!))
       }
+    
+    @IBAction func hyperlink(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.mhelpdesk.com/girls-in-stem/")! as URL, options: [:], completionHandler:nil)
+        
+    }
 }

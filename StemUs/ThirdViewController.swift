@@ -106,4 +106,7 @@ class ThirdViewController: UIViewController {
         webViewYoutube.loadRequest(URLRequest(url: url!))
     }
     
+    @IBAction func hyperlink(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.teenlife.com/blog/inspiring-girls-pursue-stem/")! as URL, options: [:], completionHandler:nil)
+    }
 }

@@ -123,5 +123,9 @@ class ViewController: UIViewController {
         webViewYoutube.loadRequest(URLRequest(url: url!))
       }
     
+    @IBAction func hyperlink(_ sender: UIButton) {
+            UIApplication.shared.open(URL(string: "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.02204/full")! as URL, options: [:], completionHandler:nil)
+          }
+    
 }
 

@@ -497,6 +497,18 @@ Science has formed the foundation of human knowledge for as long as we have trav
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0a-W8-SWz">
+                                                <rect key="frame" x="51" y="2468" width="314" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.42519842569999999" green="0.76871567959999998" blue="0.53222621110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="🧪 click here to read more about this topic 🧪">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="hyperlink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1F6-tu-UVq"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -523,7 +535,7 @@ Science has formed the foundation of human knowledge for as long as we have trav
                             <constraint firstItem="Kke-yX-RTi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xHl-ry-cd2"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Science" id="eFn-jZ-dzl"/>
+                    <tabBarItem key="tabBarItem" title="Science" image="s.square.fill" catalog="system" id="eFn-jZ-dzl"/>
                     <size key="freeformSize" width="414" height="978"/>
                     <connections>
                         <outlet property="buttonWomen" destination="Ta2-Fq-wlV" id="B5f-wb-37a"/>
@@ -766,6 +778,19 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qof-kl-Zom">
+                                                <rect key="frame" x="50" y="2484" width="314" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="📡 click here to read more about this topic 📡">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="hyperlink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64F-ye-L3Q"/>
+                                                    <action selector="hyperlink:" destination="6qB-vr-Sgt" eventType="touchUpInside" id="TsO-jz-nBz"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -792,7 +817,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                             <constraint firstItem="fDJ-BF-NnM" firstAttribute="leading" secondItem="rzf-2y-qMa" secondAttribute="leading" id="wPy-6P-4GL"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tech" id="TTi-09-M0i"/>
+                    <tabBarItem key="tabBarItem" title="Tech" image="t.square.fill" catalog="system" id="TTi-09-M0i"/>
                     <size key="freeformSize" width="414" height="1012"/>
                     <connections>
                         <outlet property="beakingStigmaBackground" destination="NVx-nk-rAt" id="EsC-ME-5yn"/>
@@ -1035,6 +1060,19 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cG2-qR-fsm">
+                                                <rect key="frame" x="50" y="2487" width="314" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="⚙️ click here to read more about this topic ⚙️">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="hyperlink:" destination="IW5-I7-Zb9" eventType="touchUpInside" id="8dL-14-MXW"/>
+                                                    <action selector="hyperlink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RjT-o9-7fA"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1061,7 +1099,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                             <constraint firstItem="OtS-aT-OaU" firstAttribute="height" secondItem="vyv-Kj-6rR" secondAttribute="height" multiplier="3.01339" id="y3p-Nw-YVT"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Eng" id="FkA-tu-dIt"/>
+                    <tabBarItem key="tabBarItem" title="Eng" image="e.square.fill" catalog="system" id="FkA-tu-dIt"/>
                     <size key="freeformSize" width="414" height="991"/>
                     <connections>
                         <outlet property="buttonWomen" destination="Y9H-je-Dfj" id="E59-xP-kfl"/>
@@ -1311,6 +1349,20 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </webView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJf-Js-plM">
+                                                <rect key="frame" x="44" y="2494" width="314" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="🧮 click here to read more about this topic 🧮">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="hyperlink:" destination="IW5-I7-Zb9" eventType="touchUpInside" id="PYz-eh-aWP"/>
+                                                    <action selector="hyperlink:" destination="RRZ-pj-ouN" eventType="touchUpInside" id="QG6-Wt-PMp"/>
+                                                    <action selector="hyperlink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mal-Lh-CAx"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1337,7 +1389,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                             <constraint firstAttribute="bottom" secondItem="QdU-zi-7Tb" secondAttribute="bottom" id="k7F-1B-RMw"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Math" id="pdR-US-Ak3"/>
+                    <tabBarItem key="tabBarItem" title="Math" image="m.square.fill" catalog="system" id="pdR-US-Ak3"/>
                     <size key="freeformSize" width="414" height="989"/>
                     <connections>
                         <outlet property="buttonWomen" destination="SoP-mY-fin" id="feV-Sc-KV0"/>
@@ -1517,6 +1569,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.083275177579999998" green="0.095677206109999996" blue="0.92941176889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="UyJ-sH-QBu"/>
@@ -1554,15 +1607,19 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         <image name="cmath" width="1080" height="1080"/>
         <image name="csci" width="1080" height="1080"/>
         <image name="ctech" width="1080" height="1080"/>
+        <image name="e.square.fill" catalog="system" width="128" height="114"/>
         <image name="engineeringImage2" width="362" height="139"/>
         <image name="engineeringImage6" width="225" height="225"/>
         <image name="homeimg" width="1080" height="1080"/>
+        <image name="m.square.fill" catalog="system" width="128" height="114"/>
         <image name="mathImage3" width="275" height="183"/>
         <image name="mathImage5" width="315" height="160"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="quizbg" width="1080" height="1920"/>
+        <image name="s.square.fill" catalog="system" width="128" height="114"/>
         <image name="scienceImage1" width="275" height="183"/>
         <image name="scienceImage2" width="275" height="183"/>
+        <image name="t.square.fill" catalog="system" width="128" height="114"/>
         <image name="tap for more arrow" width="1080" height="1080"/>
         <image name="technologyImage4" width="300" height="168"/>
         <image name="technologyImage5" width="275" height="183"/>

@@ -104,4 +104,7 @@ class FourthViewController: UIViewController {
         webViewYoutube.loadRequest(URLRequest(url: url!))
       }
 
+    @IBAction func hyperlink(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.careergirls.org")! as URL, options: [:], completionHandler:nil)
+    }
 }
