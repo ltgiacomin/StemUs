@@ -45,12 +45,40 @@ class SecondViewController: UIViewController {
     
     var techFacts2 = ["Over 90% of the world's currency is digital.", "When you work on a computer your hands travel 20 kilometers a day.", "Every iPhone advertisement has the time set to 9:41.", "There are over 700 programming languages."]
 
+    var indexImage1 = 3
+    var indexImage2 = 4
+    var indexFact = 1
+    @IBAction func factsButton(_ sender: Any) {
+        fact1Img.image = technologyImages[indexImage1]
+        fact2Img.image = technologyImages[indexImage2]
+        
+        indexImage1 = indexImage1+1
+        if indexImage1 == 5 {
+            indexImage1 = 0
+        }
+        
+        indexImage2 = indexImage2+1
+        if indexImage2 == 5 {
+            indexImage2 = 0
+        }
+        
+        fact1Text.text = techFacts1[indexFact]
+        fact2Text.text = techFacts2[indexFact]
+        
+        indexFact = indexFact+1
+        if indexFact == 4 {
+            indexFact = 0
+        }
+    }
+    
+    /*
     @IBAction func factsButton(_ sender: Any) {
         fact1Img.image = technologyImages[Int.random(in:0..<5)]
         fact2Img.image = technologyImages[Int.random(in:0..<5)]
         fact1Text.text = techFacts1.randomElement()
         fact2Text.text = techFacts2.randomElement()
     }
+     */
     
     var indexWomen = 1
     @IBAction func buttonWomen(_ sender: UIButton) {

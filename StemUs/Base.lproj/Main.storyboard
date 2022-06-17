@@ -571,7 +571,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8B-iw-1JM">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Firefox logo is not a fox (it's actually a red panda)." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8B-iw-1JM">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -590,7 +590,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehz-6Q-F9I">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Over 90% of the world's currency is digital." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehz-6Q-F9I">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -664,7 +664,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                     <action selector="buttonWomen:" destination="6qB-vr-Sgt" eventType="touchUpInside" id="mch-SM-MKX"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xtech" translatesAutoresizingMaskIntoConstraints="NO" id="8XF-gp-BH1">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wtech" translatesAutoresizingMaskIntoConstraints="NO" id="8XF-gp-BH1">
                                                 <rect key="frame" x="31" y="882" width="353" height="449"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -717,7 +717,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                         <outlet property="fact2View" destination="4xH-0I-LOO" id="NkN-1v-Ksa"/>
                         <outlet property="factsSubheading1" destination="Elr-gk-F59" id="xUn-Zr-r2I"/>
                         <outlet property="factsSubheading2" destination="H7w-6R-zif" id="tOB-bd-osY"/>
-                        <outlet property="imageProminentWomen" destination="8XF-gp-BH1" id="0au-F0-8cb"/>
+                        <outlet property="imageProminentWomen" destination="8XF-gp-BH1" id="yqr-AH-Xxf"/>
                         <outlet property="imgTap" destination="3es-Kr-q3W" id="J0k-ak-DcI"/>
                         <outlet property="stigmaHeading" destination="SdM-hI-kO6" id="5W5-Go-zUo"/>
                         <outlet property="technologyHeading" destination="Ume-KM-3Hi" id="IxC-L5-AHL"/>
@@ -734,14 +734,14 @@ The advancement of human knowledge and livelihood is concurrent to the developme
             <objects>
                 <viewController title="Engineering Page" id="IW5-I7-Zb9" customClass="ThirdViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vyv-Kj-6rR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ac1-fK-67y">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OtS-aT-OaU">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2537.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2374.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HiD-0B-U0o">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
@@ -796,7 +796,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHc-kw-51Z">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The word 'engineer' is derived from the Latin word 'ingenium'." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHc-kw-51Z">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -815,7 +815,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-o4-r1e">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Engineers design cool buildings, roller coasters, space shuttles, special effects for movies. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-o4-r1e">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -928,7 +928,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Eng" id="FkA-tu-dIt"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="842"/>
                     <connections>
                         <outlet property="buttonWomen" destination="Y9H-je-Dfj" id="E59-xP-kfl"/>
                         <outlet property="careersView" destination="7Bb-uF-krf" id="5fd-h7-p6f"/>
@@ -1028,7 +1028,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEO-CU-uOC">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The numbers on opposite sides of a dice always add up to seven." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEO-CU-uOC">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1047,7 +1047,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nulla tincidunt lobortis justo non cursus. Donec hendrerit erat sed congue tincidunt. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9P-Ge-m24">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mathematicians expand mathematical knowledge by developing new principles." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9P-Ge-m24">
                                                         <rect key="frame" x="8" y="109" width="164" height="85"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1359,7 +1359,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         <image name="weng" width="1080" height="1080"/>
         <image name="wmath" width="1080" height="1080"/>
         <image name="wsci" width="1080" height="1080"/>
-        <image name="xtech" width="1080" height="1080"/>
+        <image name="wtech" width="1080" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

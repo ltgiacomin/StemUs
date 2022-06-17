@@ -60,6 +60,33 @@ class ViewController: UIViewController {
     
     var scienceFacts2 = ["The Eiffel Tower can be 15cm taller during the summer.", "Venus is the only planet to spin clockwise.", "The human stomach can dissolve razor blades.", "A cloud can weigh around a million pounds."]
     
+    var indexImage1 = 3
+    var indexImage2 = 4
+    var indexFact = 1
+    
+    @IBAction func generateNewFactsButton(_ sender: UIButton) {
+        imageFact1.image = scienceImages[indexImage1]
+        imageFact2.image = scienceImages[indexImage2]
+        
+        indexImage1 = indexImage1+1
+        if indexImage1 == 5 {
+            indexImage1 = 0
+        }
+        
+        indexImage2 = indexImage2+1
+        if indexImage2 == 5 {
+            indexImage2 = 0
+        }
+        
+        textFact1.text = scienceFacts1[indexFact]
+        textFact2.text = scienceFacts2[indexFact]
+        
+        indexFact = indexFact+1
+        if indexFact == 4 {
+            indexFact = 0
+        }
+    }
+    /*
     @IBAction func generateNewFactsButton(_ sender: UIButton) {
         imageFact1.image = scienceImages[Int.random(in:0..<5)]
         imageFact2.image = scienceImages[Int.random(in:0..<5)]
@@ -68,6 +95,7 @@ class ViewController: UIViewController {
         
 
     }
+     */
     
     var indexWomen = 1
     @IBAction func buttonWomen(_ sender: UIButton) {
