@@ -10,6 +10,9 @@ import UIKit
 class ThirdViewController: UIViewController {
 
     
+    @IBOutlet weak var webViewYoutube: UIWebView!
+    @IBOutlet weak var youtubeVideoSubheading2: UILabel!
+    @IBOutlet weak var youtubeVideoSubheading1: UILabel!
     @IBOutlet weak var careersView: UIImageView!
     @IBOutlet weak var buttonWomen: UIButton!
     @IBOutlet weak var imageProminentWomen: UIImageView!
@@ -45,6 +48,8 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        getVideo(videoCode: "FEeTLopLkEo")
     }
     
     var indexImage1 = 3
@@ -94,6 +99,11 @@ class ThirdViewController: UIViewController {
     
     @IBAction func stigmaButton(_ sender: UIButton) {
         stigmaChangingText.text = stigmaFacts.randomElement()
+    }
+    
+    func getVideo(videoCode:String){
+        let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
+        webViewYoutube.loadRequest(URLRequest(url: url!))
     }
     
 }

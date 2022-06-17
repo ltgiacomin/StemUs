@@ -10,6 +10,9 @@ import UIKit
 class SecondViewController: UIViewController {
 
     
+    @IBOutlet weak var webViewYoutube: UIWebView!
+    @IBOutlet weak var youtubeVideoSubheading2: UILabel!
+    @IBOutlet weak var youtubeVideoSubheading1: UILabel!
     @IBOutlet weak var careersImgView: UIImageView!
     
     @IBOutlet weak var imageProminentWomen: UIImageView!
@@ -34,6 +37,8 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var technologyHeadingBackground: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        getVideo(videoCode: "Hddz-jS6bSA")
 
         // Do any additional setup after loading the view.
     }
@@ -94,5 +99,11 @@ class SecondViewController: UIViewController {
     
     @IBAction func breakingStigmaButton(_ sender: UIButton) {
         changingStigmaText.text = stigmaFacts.randomElement()
+        
     }
+    
+    func getVideo(videoCode:String){
+        let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
+        webViewYoutube.loadRequest(URLRequest(url: url!))
+      }
 }

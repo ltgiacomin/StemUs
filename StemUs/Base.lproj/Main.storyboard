@@ -456,6 +456,47 @@ Science has formed the foundation of human knowledge for as long as we have trav
                                                 <rect key="frame" x="8" y="1142" width="98" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch the following YouTube video for" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EwU-dC-49Y">
+                                                <rect key="frame" x="22" y="1783" width="371" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" red="0.39094418289999999" green="0.61642545459999998" blue="0.250889957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgC-Np-yhR">
+                                                <rect key="frame" x="23" y="1858" width="371" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
+                                                <color key="textColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4tM-po-Ct1">
+                                                <rect key="frame" x="22" y="1923" width="371" height="228"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </webView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-JW-Ivv">
+                                                <rect key="frame" x="-2" y="2173" width="419" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waw-WA-SNt">
+                                                        <rect key="frame" x="22" y="8" width="371" height="82"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95s-6O-OJZ">
+                                                        <rect key="frame" x="22" y="107" width="371" height="135"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">“Don't let anyone rob you of your imagination, your creativity, or your curiosity. It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live.”  - Mae Jemison, first African American woman astronaut in space</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.57888364790000002" green="0.84109556669999996" blue="0.4116710126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -503,6 +544,9 @@ Science has formed the foundation of human knowledge for as long as we have trav
                         <outlet property="viewRectangle2" destination="zK4-HW-PrX" id="mai-k0-aag"/>
                         <outlet property="viewStigma" destination="wdn-Fr-zO1" id="kx1-r2-QL5"/>
                         <outlet property="viewStigmaWhiteBox" destination="dco-UU-nQK" id="dhy-PF-o7r"/>
+                        <outlet property="webViewYoutube" destination="4tM-po-Ct1" id="ulu-6f-oK0"/>
+                        <outlet property="youtubeVideoSUbheadig1" destination="EwU-dC-49Y" id="A8q-2g-LD7"/>
+                        <outlet property="youtubeVideoSubheading2" destination="xgC-Np-yhR" id="SS7-Rf-n9H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -514,14 +558,14 @@ Science has formed the foundation of human knowledge for as long as we have trav
             <objects>
                 <viewController title="Technology Page" id="6qB-vr-Sgt" customClass="SecondViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C36-U4-Drf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="958"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDJ-BF-NnM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="958"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBd-gx-RXj">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2567.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2887"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRb-In-KAa">
                                                 <rect key="frame" x="22" y="98" width="371" height="239"/>
@@ -681,6 +725,47 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 <rect key="frame" x="0.0" y="1358" width="414" height="417"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch the following YouTube video for" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mK-iG-wBW">
+                                                <rect key="frame" x="22" y="1783" width="371" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYH-Wb-SbY">
+                                                <rect key="frame" x="22" y="1865" width="371" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
+                                                <color key="textColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jho-oa-H0N">
+                                                <rect key="frame" x="22" y="1930" width="371" height="234"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </webView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lDN-L9-cO8">
+                                                <rect key="frame" x="0.0" y="2189" width="419" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgk-Uy-31Q">
+                                                        <rect key="frame" x="22" y="8" width="371" height="82"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N55-tC-cTY">
+                                                        <rect key="frame" x="22" y="98" width="371" height="135"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">"People ask me all the time: 'What is it like to be a woman at Google?' I'm not a woman at Google, I'm a geek at Google. And being a geek is just great. I'm a geek, I like to code, I even like to use spreadsheets when I cook." -- technologist Marissa Mayer and former CEO of Yahoo.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -708,7 +793,7 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tech" id="TTi-09-M0i"/>
-                    <size key="freeformSize" width="414" height="906"/>
+                    <size key="freeformSize" width="414" height="1012"/>
                     <connections>
                         <outlet property="beakingStigmaBackground" destination="NVx-nk-rAt" id="EsC-ME-5yn"/>
                         <outlet property="buttonWomen" destination="r7o-us-sr9" id="5PY-d5-svi"/>
@@ -728,25 +813,28 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                         <outlet property="technologyHeading" destination="Ume-KM-3Hi" id="IxC-L5-AHL"/>
                         <outlet property="technologyHeadingBackground" destination="SBf-qS-AeX" id="3SM-0h-dja"/>
                         <outlet property="textInfo1" destination="bRb-In-KAa" id="5hR-O6-qhe"/>
+                        <outlet property="webViewYoutube" destination="Jho-oa-H0N" id="dgX-aM-vpv"/>
+                        <outlet property="youtubeVideoSubheading1" destination="0mK-iG-wBW" id="H6Q-3P-GkX"/>
+                        <outlet property="youtubeVideoSubheading2" destination="nYH-Wb-SbY" id="0NS-W4-piL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72w-Ih-1f4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1023.1884057971015" y="135.26785714285714"/>
+            <point key="canvasLocation" x="1023.1884057971015" y="152.67857142857142"/>
         </scene>
         <!--Engineering Page-->
         <scene sceneID="ihd-Vd-i9e">
             <objects>
                 <viewController title="Engineering Page" id="IW5-I7-Zb9" customClass="ThirdViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vyv-Kj-6rR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="937"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ac1-fK-67y">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="937"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OtS-aT-OaU">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2374.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2823.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HiD-0B-U0o">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
@@ -906,6 +994,47 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 <rect key="frame" x="0.0" y="1357" width="414" height="414"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch the following YouTube video for" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGQ-jQ-WzV">
+                                                <rect key="frame" x="22" y="1779" width="371" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVA-7h-ZPJ">
+                                                <rect key="frame" x="22" y="1861" width="371" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
+                                                <color key="textColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ad-UZ-4dQ">
+                                                <rect key="frame" x="22" y="1926" width="371" height="234"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </webView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mev-sQ-sdJ">
+                                                <rect key="frame" x="-1" y="2191" width="415" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpl-8Q-iIh">
+                                                        <rect key="frame" x="22" y="8" width="371" height="82"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYW-RE-8sE">
+                                                        <rect key="frame" x="22" y="98" width="371" height="156"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">"When I was in high school, I was certain that being an astronaut was my goal. It was a very important time -- Sally Ride was making her first flight into space and she had a real impact on me. Those 'firsts' kind of stick in your head and really become inspirations for you." -- Karen Nyberg, NASA astronaut.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -933,7 +1062,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Eng" id="FkA-tu-dIt"/>
-                    <size key="freeformSize" width="414" height="842"/>
+                    <size key="freeformSize" width="414" height="991"/>
                     <connections>
                         <outlet property="buttonWomen" destination="Y9H-je-Dfj" id="E59-xP-kfl"/>
                         <outlet property="careersView" destination="7Bb-uF-krf" id="5fd-h7-p6f"/>
@@ -953,25 +1082,28 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                         <outlet property="stigmaChangingText" destination="Jf6-xI-VPV" id="xXQ-G0-qoA"/>
                         <outlet property="stigmaHeading" destination="wsC-Lb-xcG" id="ANn-ZB-Rbj"/>
                         <outlet property="textInfo1" destination="wUF-S8-krF" id="gv3-Ky-sQh"/>
+                        <outlet property="webViewYoutube" destination="3ad-UZ-4dQ" id="i1h-2J-gzz"/>
+                        <outlet property="youtubeVideoSubheading1" destination="GGQ-jQ-WzV" id="D2L-JZ-U1i"/>
+                        <outlet property="youtubeVideoSubheading2" destination="iVA-7h-ZPJ" id="Lq4-ob-WTH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6zv-Vt-Wau" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821.7391304347827" y="131.91964285714286"/>
+            <point key="canvasLocation" x="1821.7391304347827" y="163.72767857142856"/>
         </scene>
         <!--Mathematics Page-->
         <scene sceneID="Hhq-jT-rpc">
             <objects>
                 <viewController title="Mathematics Page" id="RRZ-pj-ouN" customClass="FourthViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jv8-Uu-CyL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="935"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QdU-zi-7Tb">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="935"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2JL-O1-sVi">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2537.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2817.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mathematics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8z-Ux-xYJ">
                                                 <rect key="frame" x="10" y="10" width="371" height="57"/>
@@ -1138,6 +1270,47 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 <rect key="frame" x="-1" y="1361" width="416" height="414"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch the following YouTube video for" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUU-pS-vYv">
+                                                <rect key="frame" x="16" y="1792" width="371" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Inspiration!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9z-FX-Gg2">
+                                                <rect key="frame" x="16" y="1874" width="371" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
+                                                <color key="textColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxH-ld-HOW">
+                                                <rect key="frame" x="0.0" y="2201" width="415" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation from real life examples" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-4X-Q7n">
+                                                        <rect key="frame" x="22" y="8" width="371" height="82"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h50-bM-BMN">
+                                                        <rect key="frame" x="24" y="98" width="371" height="156"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">"If you're beautiful, you're led to believe that you can't also be smart. But you can be fun and fit and social and be really smart. And the smarter you are, the more capable you'll be to handle whatever challenges come up in life." -- Danica McKellar, mathematician and The Wonder Years actress of iconic character Winnie Cooper</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="beq-Hm-V8f">
+                                                <rect key="frame" x="19" y="1939" width="377" height="238"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </webView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1165,7 +1338,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Math" id="pdR-US-Ak3"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="989"/>
                     <connections>
                         <outlet property="buttonWomen" destination="SoP-mY-fin" id="feV-Sc-KV0"/>
                         <outlet property="careersView" destination="41i-GM-b6F" id="mYq-xO-GP5"/>
@@ -1185,11 +1358,14 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                         <outlet property="stigmaBackground" destination="ueL-ak-mEc" id="57K-RO-xUE"/>
                         <outlet property="stigmaChangingText" destination="2tZ-8a-H6i" id="tpH-hH-m2u"/>
                         <outlet property="stigmaHeading" destination="fuw-81-aEk" id="pgC-qP-etv"/>
+                        <outlet property="webViewYoutube" destination="beq-Hm-V8f" id="dUb-0g-mTY"/>
+                        <outlet property="youtubeVideoSubheading1" destination="EUU-pS-vYv" id="fxu-wq-gTK"/>
+                        <outlet property="youtubeVideoSubheading2" destination="a9z-FX-Gg2" id="1Dr-lb-dV5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xsd-GQ-Vdx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2584.057971014493" y="131.91964285714286"/>
+            <point key="canvasLocation" x="2584.057971014493" y="144.97767857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bpb-bB-z41">

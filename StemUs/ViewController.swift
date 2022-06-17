@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var webViewYoutube: UIWebView!
+    @IBOutlet weak var youtubeVideoSubheading2: UILabel!
+    @IBOutlet weak var youtubeVideoSUbheadig1: UILabel!
     @IBOutlet weak var scienceTitle: UILabel!
     
     @IBOutlet weak var scienceText: UILabel!
@@ -49,6 +53,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        getVideo(videoCode: "OKJVpaTDO94")
         
     }
 
@@ -112,6 +117,11 @@ class ViewController: UIViewController {
     @IBAction func stigmaButton(_ sender: UIButton) {
         textFacts.text = stigmaFacts.randomElement()
     }
+    
+    func getVideo(videoCode:String){
+        let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
+        webViewYoutube.loadRequest(URLRequest(url: url!))
+      }
     
 }
 
