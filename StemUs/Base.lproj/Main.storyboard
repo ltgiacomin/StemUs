@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quizbg" translatesAutoresizingMaskIntoConstraints="NO" id="lkg-jY-Qol">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sw6-5f-W2R">
                                 <rect key="frame" x="20" y="76" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -236,27 +240,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IZZ-nE-upr">
-                                <rect key="frame" x="0.0" y="388.5" width="414" height="65.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLQ-y5-gTz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bi-72-vjQ">
-                                        <rect key="frame" x="0.0" y="44" width="414" height="21.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="gLQ-y5-gTz" secondAttribute="trailing" id="Ggi-pG-EpO"/>
-                                    <constraint firstAttribute="trailing" secondItem="7bi-72-vjQ" secondAttribute="trailing" id="d4i-9b-Kst"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQi-bi-d9g">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IZZ-nE-upr">
+                                <rect key="frame" x="0.0" y="410.5" width="414" height="21.5"/>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mathematics is very   gergbevbekjbvkl ef kef enfibife riubgri eiu fh  he fief ie urerigh rg erg " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bi-72-vjQ">
+                                <rect key="frame" x="10" y="338" width="394" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLQ-y5-gTz">
+                                <rect key="frame" x="10" y="249" width="394" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x7h-D8-NMg"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -275,6 +279,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="quizBg" destination="LQi-bi-d9g" id="Sl6-iB-hX1"/>
                         <outlet property="resultAnswerLabel" destination="gLQ-y5-gTz" id="sx3-Jd-7Gx"/>
                         <outlet property="resultDefinitionLabel" destination="7bi-72-vjQ" id="qoE-cG-deK"/>
                     </connections>
@@ -289,14 +294,14 @@
             <objects>
                 <viewController title="Science Page" id="BYZ-38-t0r" customClass="ViewController" customModule="StemUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="924"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-yX-RTi">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="924"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKf-Gu-8S2">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2290"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2784.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdn-Fr-zO1">
                                                 <rect key="frame" x="0.0" y="717" width="414" height="143"/>
@@ -478,7 +483,7 @@ Science has formed the foundation of human knowledge for as long as we have trav
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Science" id="eFn-jZ-dzl"/>
-                    <size key="freeformSize" width="414" height="814"/>
+                    <size key="freeformSize" width="414" height="978"/>
                     <connections>
                         <outlet property="buttonWomen" destination="Ta2-Fq-wlV" id="B5f-wb-37a"/>
                         <outlet property="checkOutText" destination="3ks-FE-wWw" id="B8r-xe-wun"/>
@@ -502,7 +507,7 @@ Science has formed the foundation of human knowledge for as long as we have trav
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="269.56521739130437" y="103.79464285714285"/>
+            <point key="canvasLocation" x="288.40579710144931" y="147.32142857142856"/>
         </scene>
         <!--Technology Page-->
         <scene sceneID="MBI-TP-Mus">
@@ -1351,6 +1356,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         <image name="mathImage3" width="275" height="183"/>
         <image name="mathImage5" width="315" height="160"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
+        <image name="quizbg" width="1080" height="1920"/>
         <image name="scienceImage1" width="275" height="183"/>
         <image name="scienceImage2" width="275" height="183"/>
         <image name="tap for more arrow" width="1080" height="1080"/>

@@ -9,6 +9,7 @@ import UIKit
 
 class ResultsViewController: UIViewController {
 
+    @IBOutlet weak var quizBg: UIImageView!
     @IBOutlet weak var resultAnswerLabel: UILabel!
         
     @IBOutlet weak var resultDefinitionLabel: UILabel!
@@ -40,6 +41,22 @@ class ResultsViewController: UIViewController {
         
         resultAnswerLabel.text = "The STEM Field that matches most to your personality is \(mostCommonAnswer.rawValue)!😎"
         resultDefinitionLabel.text = mostCommonAnswer.definition
+        
+        if mostCommonAnswer.rawValue == "Science" {
+            quizBg.image = UIImage(named:"quizsci")
+        }
+        
+        if mostCommonAnswer.rawValue == "Technology" {
+            quizBg.image = UIImage(named:"quiztech")
+        }
+        
+        if mostCommonAnswer.rawValue == "Engineering" {
+            quizBg.image = UIImage(named:"quizeng")
+        }
+        
+        if mostCommonAnswer.rawValue == "Mathematics" {
+            quizBg.image = UIImage(named:"quizmath")
+        }
     }
     /*
     // MARK: - Navigation
