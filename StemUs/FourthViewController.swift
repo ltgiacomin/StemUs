@@ -10,7 +10,11 @@ import UIKit
 class FourthViewController: UIViewController {
 
     @IBOutlet weak var careersView: UIImageView!
-    @IBOutlet weak var importantWomenView: UIImageView!
+    @IBOutlet weak var imageProminentWomen: UIImageView!
+    
+    @IBOutlet weak var buttonWomen: UIButton!
+    @IBOutlet weak var imgTap: UIImageView!
+    
     @IBOutlet weak var stigmaChangingText: UILabel!
     @IBOutlet weak var stigmaHeading: UILabel!
     @IBOutlet weak var stigmaBackground: UIView!
@@ -27,6 +31,8 @@ class FourthViewController: UIViewController {
     @IBOutlet weak var mathsBackground: UIView!
     
     var mathImages = [UIImage(named:"mathImage1"),UIImage(named:"mathImage2"),UIImage(named:"mathImage3"),UIImage(named:"mathImage4"),UIImage(named:"mathImage5"),UIImage(named:"mathImage6")]
+    
+    var womenImages = [UIImage(named:"wmath"),UIImage(named:"cmath_sg"),UIImage(named:"cmath_ha")]
     
     var mathFacts1 = ["The numbers on opposite sides of a dice always add up to seven.", "Accounting firms, banks, computer manufacturers, insurance agents, and many other agencies and companies hire math graduates."]
     
@@ -45,6 +51,16 @@ class FourthViewController: UIViewController {
         fact2Img.image = mathImages[Int.random(in:0..<5)]
         fact1Text.text = mathFacts1.randomElement()
         fact2Text.text = mathFacts2.randomElement()
+    }
+    
+    var indexWomen = 1
+    @IBAction func buttonWomen(_ sender: UIButton) {
+        imgTap.isHidden = true
+        imageProminentWomen.image = womenImages[indexWomen]
+        indexWomen = indexWomen+1
+        if indexWomen == 3 {
+            indexWomen = 0
+        }
     }
     
     @IBAction func stigmaButton(_ sender: UIButton) {

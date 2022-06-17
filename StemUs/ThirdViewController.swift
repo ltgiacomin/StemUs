@@ -11,7 +11,11 @@ class ThirdViewController: UIViewController {
 
     
     @IBOutlet weak var careersView: UIImageView!
-    @IBOutlet weak var importantWomenView: UIImageView!
+    @IBOutlet weak var buttonWomen: UIButton!
+    @IBOutlet weak var imageProminentWomen: UIImageView!
+    
+    @IBOutlet weak var imgTap: UIImageView!
+    
     @IBOutlet weak var stigmaChangingText: UILabel!
     @IBOutlet weak var stigmaHeading: UILabel!
     @IBOutlet weak var stigmaBackground: UIView!
@@ -28,6 +32,8 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var engBackground: UIView!
     
     var engImages = [UIImage(named:"engineeringImage1"),UIImage(named:"engineeringImage2"),UIImage(named:"engineeringImage3"),UIImage(named:"engineeringImage4"),UIImage(named:"engineeringImage5"),UIImage(named:"engineeringImage6")]
+    
+    var womenImages = [UIImage(named:"weng"),UIImage(named:"ceng_er"),UIImage(named:"ceng_mc")]
     
     var engFacts1 = ["The word 'engineer' is derived from the Latin word 'ingenium'.", "The Ferris wheel is regarded as one of the largest engineering wonders of the world.","The snowboard was invented by an engineer."]
     
@@ -46,6 +52,16 @@ class ThirdViewController: UIViewController {
         fact2Img.image = engImages[Int.random(in:0..<5)]
         fact1Text.text = engFacts1.randomElement()
         fact2Text.text = engFacts2.randomElement()
+    }
+    
+    var indexWomen = 1
+    @IBAction func buttonWomen(_ sender: UIButton) {
+        imgTap.isHidden = true
+        imageProminentWomen.image = womenImages[indexWomen]
+        indexWomen = indexWomen+1
+        if indexWomen == 3 {
+            indexWomen = 0
+        }
     }
     
     @IBAction func stigmaButton(_ sender: UIButton) {

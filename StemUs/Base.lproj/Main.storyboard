@@ -418,6 +418,15 @@ Science has formed the foundation of human knowledge for as long as we have trav
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta2-Fq-wlV">
+                                                <rect key="frame" x="76" y="883" width="263" height="449"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonWomen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3L-bD-JRB"/>
+                                                </connections>
+                                            </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wsci" translatesAutoresizingMaskIntoConstraints="NO" id="lVj-z3-yHM">
                                                 <rect key="frame" x="31" y="883" width="353" height="449"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -435,7 +444,11 @@ Science has formed the foundation of human knowledge for as long as we have trav
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="csci" translatesAutoresizingMaskIntoConstraints="NO" id="Vbz-oF-cI4">
-                                                <rect key="frame" x="1" y="1371" width="414" height="411"/>
+                                                <rect key="frame" x="-1" y="1359" width="419" height="416"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tap for more arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Vfi-Tu-MMK">
+                                                <rect key="frame" x="8" y="1142" width="98" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -467,12 +480,14 @@ Science has formed the foundation of human knowledge for as long as we have trav
                     <tabBarItem key="tabBarItem" title="Science" id="eFn-jZ-dzl"/>
                     <size key="freeformSize" width="414" height="814"/>
                     <connections>
+                        <outlet property="buttonWomen" destination="Ta2-Fq-wlV" id="B5f-wb-37a"/>
                         <outlet property="checkOutText" destination="3ks-FE-wWw" id="B8r-xe-wun"/>
                         <outlet property="coolScienceFacts" destination="SOM-LO-Mwm" id="rJN-bN-QFB"/>
                         <outlet property="imageCareers" destination="Vbz-oF-cI4" id="rbf-DH-hFa"/>
                         <outlet property="imageFact1" destination="Xue-AM-2Ly" id="99Y-K4-WDk"/>
                         <outlet property="imageFact2" destination="2Fh-uA-BLe" id="NMB-Ku-PlF"/>
                         <outlet property="imageProminentWomen" destination="lVj-z3-yHM" id="cjY-gt-uTt"/>
+                        <outlet property="imgTap" destination="Vfi-Tu-MMK" id="5he-fK-b2E"/>
                         <outlet property="scienceText" destination="ZGg-bf-WkZ" id="AA5-oU-uf3"/>
                         <outlet property="scienceTitle" destination="6o2-am-chd" id="1Jj-70-rGG"/>
                         <outlet property="textFact1" destination="o4I-LO-gLf" id="f8Q-aC-g4Y"/>
@@ -640,12 +655,25 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.49019610879999997" green="0.74117654560000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7o-us-sr9">
+                                                <rect key="frame" x="76" y="882" width="263" height="449"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonWomen:" destination="6qB-vr-Sgt" eventType="touchUpInside" id="mch-SM-MKX"/>
+                                                </connections>
+                                            </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xtech" translatesAutoresizingMaskIntoConstraints="NO" id="8XF-gp-BH1">
                                                 <rect key="frame" x="31" y="882" width="353" height="449"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tap for more arrow" translatesAutoresizingMaskIntoConstraints="NO" id="3es-Kr-q3W">
+                                                <rect key="frame" x="8" y="1133" width="98" height="93"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ctech" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-5V-O47">
-                                                <rect key="frame" x="0.0" y="1339" width="414" height="417"/>
+                                                <rect key="frame" x="0.0" y="1358" width="414" height="417"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -678,8 +706,8 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                     <size key="freeformSize" width="414" height="906"/>
                     <connections>
                         <outlet property="beakingStigmaBackground" destination="NVx-nk-rAt" id="EsC-ME-5yn"/>
+                        <outlet property="buttonWomen" destination="r7o-us-sr9" id="5PY-d5-svi"/>
                         <outlet property="careersImgView" destination="gQz-5V-O47" id="QDw-yp-1ez"/>
-                        <outlet property="changingImgView" destination="8XF-gp-BH1" id="RRQ-ll-6hL"/>
                         <outlet property="changingStigmaText" destination="Nbz-1B-gKJ" id="2CI-Wf-4gq"/>
                         <outlet property="fact1Img" destination="Dsv-sB-R98" id="97e-hs-dkp"/>
                         <outlet property="fact1Text" destination="b8B-iw-1JM" id="oGZ-zZ-GnC"/>
@@ -689,6 +717,8 @@ The advancement of human knowledge and livelihood is concurrent to the developme
                         <outlet property="fact2View" destination="4xH-0I-LOO" id="NkN-1v-Ksa"/>
                         <outlet property="factsSubheading1" destination="Elr-gk-F59" id="xUn-Zr-r2I"/>
                         <outlet property="factsSubheading2" destination="H7w-6R-zif" id="tOB-bd-osY"/>
+                        <outlet property="imageProminentWomen" destination="8XF-gp-BH1" id="0au-F0-8cb"/>
+                        <outlet property="imgTap" destination="3es-Kr-q3W" id="J0k-ak-DcI"/>
                         <outlet property="stigmaHeading" destination="SdM-hI-kO6" id="5W5-Go-zUo"/>
                         <outlet property="technologyHeading" destination="Ume-KM-3Hi" id="IxC-L5-AHL"/>
                         <outlet property="technologyHeadingBackground" destination="SBf-qS-AeX" id="3SM-0h-dja"/>
@@ -850,8 +880,21 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.71764707569999997" green="0.61176472900000001" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-je-Dfj">
+                                                <rect key="frame" x="76" y="881" width="263" height="449"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonWomen:" destination="IW5-I7-Zb9" eventType="touchUpInside" id="q4a-QI-rqs"/>
+                                                </connections>
+                                            </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weng" translatesAutoresizingMaskIntoConstraints="NO" id="AYN-wE-zxZ">
                                                 <rect key="frame" x="31" y="881" width="353" height="449"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tap for more arrow" translatesAutoresizingMaskIntoConstraints="NO" id="vRY-1z-PgA">
+                                                <rect key="frame" x="8" y="1138" width="98" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ceng" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-uF-krf">
@@ -887,6 +930,7 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                     <tabBarItem key="tabBarItem" title="Eng" id="FkA-tu-dIt"/>
                     <size key="freeformSize" width="414" height="896"/>
                     <connections>
+                        <outlet property="buttonWomen" destination="Y9H-je-Dfj" id="E59-xP-kfl"/>
                         <outlet property="careersView" destination="7Bb-uF-krf" id="5fd-h7-p6f"/>
                         <outlet property="engBackground" destination="HiD-0B-U0o" id="wZU-GM-VPf"/>
                         <outlet property="engineeringHeading" destination="WmT-k0-bcI" id="6hC-Bt-xSq"/>
@@ -898,7 +942,8 @@ Engineers are professionals who invent, design, analyze, build, and test machine
                         <outlet property="fact2Text" destination="Kfg-o4-r1e" id="dVr-QE-txZ"/>
                         <outlet property="factsSubheading1" destination="si0-WB-pFJ" id="5E3-cn-AWq"/>
                         <outlet property="factsSubheading2" destination="277-JJ-Mh3" id="iwn-S4-Wf5"/>
-                        <outlet property="importantWomenView" destination="AYN-wE-zxZ" id="ucN-xq-bHu"/>
+                        <outlet property="imageProminentWomen" destination="AYN-wE-zxZ" id="g5h-7B-cWR"/>
+                        <outlet property="imgTap" destination="vRY-1z-PgA" id="v6S-Yx-m71"/>
                         <outlet property="stigmaBackground" destination="wsC-Lb-xcG" id="EsT-7g-iCa"/>
                         <outlet property="stigmaChangingText" destination="Jf6-xI-VPV" id="xXQ-G0-qoA"/>
                         <outlet property="stigmaHeading" destination="wsC-Lb-xcG" id="ANn-ZB-Rbj"/>
@@ -1067,8 +1112,21 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.92941176889999999" green="0.43921568989999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoP-mY-fin">
+                                                <rect key="frame" x="76" y="885" width="263" height="449"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonWomen:" destination="RRZ-pj-ouN" eventType="touchUpInside" id="PE7-az-VsB"/>
+                                                </connections>
+                                            </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wmath" translatesAutoresizingMaskIntoConstraints="NO" id="dvt-JC-1Aw">
                                                 <rect key="frame" x="31" y="885" width="353" height="449"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tap for more arrow" translatesAutoresizingMaskIntoConstraints="NO" id="uWH-xd-T4u">
+                                                <rect key="frame" x="8" y="1137" width="98" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cmath" translatesAutoresizingMaskIntoConstraints="NO" id="41i-GM-b6F">
@@ -1104,6 +1162,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                     <tabBarItem key="tabBarItem" title="Math" id="pdR-US-Ak3"/>
                     <size key="freeformSize" width="414" height="896"/>
                     <connections>
+                        <outlet property="buttonWomen" destination="SoP-mY-fin" id="feV-Sc-KV0"/>
                         <outlet property="careersView" destination="41i-GM-b6F" id="mYq-xO-GP5"/>
                         <outlet property="fact1Background" destination="zZ6-h8-SfI" id="ZuN-nH-0AC"/>
                         <outlet property="fact1Img" destination="cpv-dV-woh" id="zCW-AG-8eh"/>
@@ -1113,7 +1172,8 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
                         <outlet property="fact2Text" destination="Y9P-Ge-m24" id="fKQ-Eg-23z"/>
                         <outlet property="factsSubheading1" destination="o5n-f2-Vhk" id="PyZ-Ul-LRQ"/>
                         <outlet property="factsSubheading2" destination="AQb-lb-oIB" id="hAj-Xz-xuB"/>
-                        <outlet property="importantWomenView" destination="dvt-JC-1Aw" id="ixv-87-bTA"/>
+                        <outlet property="imageProminentWomen" destination="dvt-JC-1Aw" id="tXv-gg-hQm"/>
+                        <outlet property="imgTap" destination="uWH-xd-T4u" id="861-lL-UWO"/>
                         <outlet property="mathsBackground" destination="EbN-az-Jes" id="u3g-B5-7Qq"/>
                         <outlet property="mathsHeading" destination="d0A-u9-p8K" id="1dV-gT-IsN"/>
                         <outlet property="mathsText" destination="7Y7-OY-lEy" id="A13-gX-ipR"/>
@@ -1293,6 +1353,7 @@ The field of mathematics is incredibly expansive, encapsulating pure areas such 
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="scienceImage1" width="275" height="183"/>
         <image name="scienceImage2" width="275" height="183"/>
+        <image name="tap for more arrow" width="1080" height="1080"/>
         <image name="technologyImage4" width="300" height="168"/>
         <image name="technologyImage5" width="275" height="183"/>
         <image name="weng" width="1080" height="1080"/>
